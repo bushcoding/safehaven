@@ -1,0 +1,121 @@
+{
+  "name": "Safe Haven - Adopción de Mascotas",
+  "short_name": "Safe Haven",
+  "description": "Plataforma de adopción responsable de mascotas. Encuentra tu compañero perfecto o ayuda a un animal a encontrar hogar.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#f97316",
+  "orientation": "portrait-primary",
+  "categories": ["lifestyle", "social", "utilities"],
+  "lang": "es",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/pwa-icon.jpeg",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-icon.jpeg",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-icon.jpeg",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-icon.jpeg",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-icon.jpeg",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-icon.jpeg",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/pwa-icon.jpeg", 
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-icon.jpeg", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Buscar Mascotas",
+      "short_name": "Buscar",
+      "description": "Busca mascotas disponibles para adopción",
+      "url": "/?shortcut=search",
+      "icons": [
+        {
+          "src": "/pwa-icon.jpeg",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Mapa de Mascotas",
+      "short_name": "Mapa",
+      "description": "Ve mascotas en el mapa interactivo",
+      "url": "/map?shortcut=map",
+      "icons": [
+        {
+          "src": "/pwa-icon.jpeg",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Publicar Mascota",
+      "short_name": "Publicar",
+      "description": "Publica una mascota para adopción",
+      "url": "/add-pet?shortcut=add",
+      "icons": [
+        {
+          "src": "/pwa-icon.jpeg",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/pwa-icon.jpeg",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Safe Haven - Página principal"
+    },
+    {
+      "src": "/pwa-icon.jpeg",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Safe Haven - Móvil"
+    }
+  ],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
+}
